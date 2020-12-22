@@ -15,6 +15,9 @@
 		0273F28E25926820009BFA2F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 0273F28C2592681F009BFA2F /* locations.json */; };
 		0273F2912592751C009BFA2F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F2902592751C009BFA2F /* Location.swift */; };
 		0273F2942592797B009BFA2F /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F2932592797B009BFA2F /* Locations.swift */; };
+		0273F29725928166009BFA2F /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F29625928166009BFA2F /* WorldView.swift */; };
+		0273F29A25928928009BFA2F /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F29925928928009BFA2F /* Tip.swift */; };
+		0273F29D25928A1C009BFA2F /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F29C25928A1C009BFA2F /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		0273F28C2592681F009BFA2F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		0273F2902592751C009BFA2F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		0273F2932592797B009BFA2F /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		0273F29625928166009BFA2F /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		0273F29925928928009BFA2F /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		0273F29C25928A1C009BFA2F /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				0273F27B25926573009BFA2F /* TrekrApp.swift */,
+				0273F29625928166009BFA2F /* WorldView.swift */,
 				0273F27D25926573009BFA2F /* ContentView.swift */,
 				0273F2902592751C009BFA2F /* Location.swift */,
 				0273F2932592797B009BFA2F /* Locations.swift */,
+				0273F29925928928009BFA2F /* Tip.swift */,
+				0273F29C25928A1C009BFA2F /* TipsView.swift */,
 				0273F27F2592657C009BFA2F /* Assets.xcassets */,
 				0273F2842592657C009BFA2F /* Info.plist */,
 				0273F28C2592681F009BFA2F /* locations.json */,
@@ -154,6 +163,9 @@
 			files = (
 				0273F27E25926573009BFA2F /* ContentView.swift in Sources */,
 				0273F2912592751C009BFA2F /* Location.swift in Sources */,
+				0273F29725928166009BFA2F /* WorldView.swift in Sources */,
+				0273F29A25928928009BFA2F /* Tip.swift in Sources */,
+				0273F29D25928A1C009BFA2F /* TipsView.swift in Sources */,
 				0273F2942592797B009BFA2F /* Locations.swift in Sources */,
 				0273F27C25926573009BFA2F /* TrekrApp.swift in Sources */,
 			);

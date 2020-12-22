@@ -10,6 +10,10 @@ import Foundation
 class Locations: ObservableObject {
     let places: [Location]
     
+    var primary: Location {
+        places[0]
+    }
+    
     init() {
         guard let url = Bundle.main.url(forResource: "locations", withExtension: "json") else {
             fatalError()
