@@ -13,6 +13,8 @@
 		0273F2832592657C009BFA2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0273F2822592657C009BFA2F /* Preview Assets.xcassets */; };
 		0273F28D25926820009BFA2F /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 0273F28B2592681F009BFA2F /* tips.json */; };
 		0273F28E25926820009BFA2F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 0273F28C2592681F009BFA2F /* locations.json */; };
+		0273F2912592751C009BFA2F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F2902592751C009BFA2F /* Location.swift */; };
+		0273F2942592797B009BFA2F /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273F2932592797B009BFA2F /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0273F2842592657C009BFA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0273F28B2592681F009BFA2F /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		0273F28C2592681F009BFA2F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		0273F2902592751C009BFA2F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0273F2932592797B009BFA2F /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				0273F27B25926573009BFA2F /* TrekrApp.swift */,
 				0273F27D25926573009BFA2F /* ContentView.swift */,
+				0273F2902592751C009BFA2F /* Location.swift */,
+				0273F2932592797B009BFA2F /* Locations.swift */,
 				0273F27F2592657C009BFA2F /* Assets.xcassets */,
 				0273F2842592657C009BFA2F /* Info.plist */,
 				0273F28C2592681F009BFA2F /* locations.json */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0273F27E25926573009BFA2F /* ContentView.swift in Sources */,
+				0273F2912592751C009BFA2F /* Location.swift in Sources */,
+				0273F2942592797B009BFA2F /* Locations.swift in Sources */,
 				0273F27C25926573009BFA2F /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
